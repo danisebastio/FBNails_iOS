@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6460334B2C020B5000122229 /* FBNailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460334A2C020B5000122229 /* FBNailsApp.swift */; };
+		6460334D2C020B5000122229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460334C2C020B5000122229 /* ContentView.swift */; };
+		6460334F2C020B5200122229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6460334E2C020B5200122229 /* Assets.xcassets */; };
+		646033522C020B5200122229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646033512C020B5200122229 /* Preview Assets.xcassets */; };
+		6460335C2C020B5300122229 /* FBNailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460335B2C020B5300122229 /* FBNailsTests.swift */; };
+		646033662C020B5300122229 /* FBNailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646033652C020B5300122229 /* FBNailsUITests.swift */; };
+		646033682C020B5300122229 /* FBNailsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646033672C020B5300122229 /* FBNailsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		646033582C020B5300122229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6460333F2C020B5000122229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 646033462C020B5000122229;
+			remoteInfo = FBNails;
+		};
+		646033622C020B5300122229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6460333F2C020B5000122229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 646033462C020B5000122229;
+			remoteInfo = FBNails;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		646033472C020B5000122229 /* FBNails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBNails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6460334A2C020B5000122229 /* FBNailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNailsApp.swift; sourceTree = "<group>"; };
+		6460334C2C020B5000122229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6460334E2C020B5200122229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		646033512C020B5200122229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		646033572C020B5300122229 /* FBNailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBNailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6460335B2C020B5300122229 /* FBNailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNailsTests.swift; sourceTree = "<group>"; };
+		646033612C020B5300122229 /* FBNailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBNailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646033652C020B5300122229 /* FBNailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNailsUITests.swift; sourceTree = "<group>"; };
+		646033672C020B5300122229 /* FBNailsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNailsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		646033442C020B5000122229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646033542C020B5300122229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6460335E2C020B5300122229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6460333E2C020B5000122229 = {
+			isa = PBXGroup;
+			children = (
+				646033492C020B5000122229 /* FBNails */,
+				6460335A2C020B5300122229 /* FBNailsTests */,
+				646033642C020B5300122229 /* FBNailsUITests */,
+				646033482C020B5000122229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		646033482C020B5000122229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				646033472C020B5000122229 /* FBNails.app */,
+				646033572C020B5300122229 /* FBNailsTests.xctest */,
+				646033612C020B5300122229 /* FBNailsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		646033492C020B5000122229 /* FBNails */ = {
+			isa = PBXGroup;
+			children = (
+				6460334A2C020B5000122229 /* FBNailsApp.swift */,
+				6460334C2C020B5000122229 /* ContentView.swift */,
+				6460334E2C020B5200122229 /* Assets.xcassets */,
+				646033502C020B5200122229 /* Preview Content */,
+			);
+			path = FBNails;
+			sourceTree = "<group>";
+		};
+		646033502C020B5200122229 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				646033512C020B5200122229 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6460335A2C020B5300122229 /* FBNailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6460335B2C020B5300122229 /* FBNailsTests.swift */,
+			);
+			path = FBNailsTests;
+			sourceTree = "<group>";
+		};
+		646033642C020B5300122229 /* FBNailsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				646033652C020B5300122229 /* FBNailsUITests.swift */,
+				646033672C020B5300122229 /* FBNailsUITestsLaunchTests.swift */,
+			);
+			path = FBNailsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		646033462C020B5000122229 /* FBNails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6460336B2C020B5300122229 /* Build configuration list for PBXNativeTarget "FBNails" */;
+			buildPhases = (
+				646033432C020B5000122229 /* Sources */,
+				646033442C020B5000122229 /* Frameworks */,
+				646033452C020B5000122229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBNails;
+			productName = FBNails;
+			productReference = 646033472C020B5000122229 /* FBNails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		646033562C020B5300122229 /* FBNailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6460336E2C020B5300122229 /* Build configuration list for PBXNativeTarget "FBNailsTests" */;
+			buildPhases = (
+				646033532C020B5300122229 /* Sources */,
+				646033542C020B5300122229 /* Frameworks */,
+				646033552C020B5300122229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646033592C020B5300122229 /* PBXTargetDependency */,
+			);
+			name = FBNailsTests;
+			productName = FBNailsTests;
+			productReference = 646033572C020B5300122229 /* FBNailsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		646033602C020B5300122229 /* FBNailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646033712C020B5300122229 /* Build configuration list for PBXNativeTarget "FBNailsUITests" */;
+			buildPhases = (
+				6460335D2C020B5300122229 /* Sources */,
+				6460335E2C020B5300122229 /* Frameworks */,
+				6460335F2C020B5300122229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646033632C020B5300122229 /* PBXTargetDependency */,
+			);
+			name = FBNailsUITests;
+			productName = FBNailsUITests;
+			productReference = 646033612C020B5300122229 /* FBNailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6460333F2C020B5000122229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					646033462C020B5000122229 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					646033562C020B5300122229 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 646033462C020B5000122229;
+					};
+					646033602C020B5300122229 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 646033462C020B5000122229;
+					};
+				};
+			};
+			buildConfigurationList = 646033422C020B5000122229 /* Build configuration list for PBXProject "FBNails" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6460333E2C020B5000122229;
+			productRefGroup = 646033482C020B5000122229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				646033462C020B5000122229 /* FBNails */,
+				646033562C020B5300122229 /* FBNailsTests */,
+				646033602C020B5300122229 /* FBNailsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		646033452C020B5000122229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646033522C020B5200122229 /* Preview Assets.xcassets in Resources */,
+				6460334F2C020B5200122229 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646033552C020B5300122229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6460335F2C020B5300122229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		646033432C020B5000122229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6460334D2C020B5000122229 /* ContentView.swift in Sources */,
+				6460334B2C020B5000122229 /* FBNailsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646033532C020B5300122229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6460335C2C020B5300122229 /* FBNailsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6460335D2C020B5300122229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646033682C020B5300122229 /* FBNailsUITestsLaunchTests.swift in Sources */,
+				646033662C020B5300122229 /* FBNailsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		646033592C020B5300122229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 646033462C020B5000122229 /* FBNails */;
+			targetProxy = 646033582C020B5300122229 /* PBXContainerItemProxy */;
+		};
+		646033632C020B5300122229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 646033462C020B5000122229 /* FBNails */;
+			targetProxy = 646033622C020B5300122229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		646033692C020B5300122229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6460336A2C020B5300122229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6460336C2C020B5300122229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FBNails/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.fbnails.FBNails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6460336D2C020B5300122229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FBNails/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.fbnails.FBNails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6460336F2C020B5300122229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.fbnails.FBNailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBNails.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FBNails";
+			};
+			name = Debug;
+		};
+		646033702C020B5300122229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.fbnails.FBNailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBNails.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FBNails";
+			};
+			name = Release;
+		};
+		646033722C020B5300122229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.fbnails.FBNailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBNails;
+			};
+			name = Debug;
+		};
+		646033732C020B5300122229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.fbnails.FBNailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBNails;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		646033422C020B5000122229 /* Build configuration list for PBXProject "FBNails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646033692C020B5300122229 /* Debug */,
+				6460336A2C020B5300122229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6460336B2C020B5300122229 /* Build configuration list for PBXNativeTarget "FBNails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6460336C2C020B5300122229 /* Debug */,
+				6460336D2C020B5300122229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6460336E2C020B5300122229 /* Build configuration list for PBXNativeTarget "FBNailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6460336F2C020B5300122229 /* Debug */,
+				646033702C020B5300122229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646033712C020B5300122229 /* Build configuration list for PBXNativeTarget "FBNailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646033722C020B5300122229 /* Debug */,
+				646033732C020B5300122229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6460333F2C020B5000122229 /* Project object */;
+}
